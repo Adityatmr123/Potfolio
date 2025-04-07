@@ -76,7 +76,7 @@ export function Skills() {
                   <CardTitle className="text-xl">{category}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-4">
                     {categorySkills.map((skill, skillIndex) => (
                       <motion.div
                         key={skillIndex}
@@ -89,8 +89,8 @@ export function Skills() {
                           stiffness: 100
                         }}
                         whileHover={{
-                          y: -5,
-                          scale: 1.1,
+                          y: -15,
+                          scale: 1.3,
                           rotate: [-1, 1, -1, 0],
                           transition: { duration: 0.3 }
                         }}
