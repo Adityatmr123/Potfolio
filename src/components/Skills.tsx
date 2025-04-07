@@ -21,7 +21,7 @@ export function Skills() {
       "Git", "Docker", "AWS", "Postman", "Docker", "Kubernates"
     ],
     "Other": [
-      "Data Structures", "Algorithms", "System Design", "OOP"
+      "Data Structures", "Algorithms", "System Design", "OOPS"
     ]
   }
 
@@ -108,7 +108,7 @@ export function Skills() {
                           }
                         }}
                       >
-                        <Badge
+                         <Badge
                           variant="secondary"
                           className="px-3 py-1 bg-blue-500 hover:bg-blue-600 text-white border-transparent transition-colors"
                         >
