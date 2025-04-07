@@ -6,22 +6,22 @@ import { useRef } from "react"
 export function Skills() {
   const skills = {
     "Languages": [
-      "JavaScript", "TypeScript", "Python", "Java", "C++", "HTML", "CSS"
+      "JavaScript", "Python", "Java", "C++", "HTML", "CSS"
     ],
     "Frontend": [
-      "React", "Next.js", "Redux", "Tailwind CSS", "Material UI", "Framer Motion", "React Query"
+      "React", "Next.js", "Redux", "Tailwind CSS", "React Query"
     ],
     "Backend": [
-      "Node.js", "Express", "Django", "FastAPI", "GraphQL", "REST API"
+      "Node.js", "Express", "FastAPI","REST API"
     ],
     "Database": [
-      "MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis"
+      "MongoDB", "MySQL", "Firebase"
     ],
     "DevOps & Tools": [
-      "Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack", "Vite"
+      "Git", "Docker", "AWS", "Postman", "Docker", "Kubernates"
     ],
     "Other": [
-      "Data Structures", "Algorithms", "System Design", "OOP", "Agile", "TDD"
+      "Data Structures", "Algorithms", "System Design", "OOP"
     ]
   }
 

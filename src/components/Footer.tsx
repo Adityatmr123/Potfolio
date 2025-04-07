@@ -26,7 +26,7 @@ export function Footer() {
           <a href="https://www.linkedin.com/in/adityasinghtmr/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-1 inline-block">
             <Linkedin className="h-5 w-5" />
           </a>
-          <a href="mailto:adityasinghtmrr@gmail.com" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-1 inline-block">
+          <a href="#" onClick={(e) => { e.preventDefault(); window.location.href = 'mailto:adityasinghtmrr@gmail.com'; }} className="text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-1 inline-block">
             <Mail className="h-5 w-5" />
           </a>
         </div>

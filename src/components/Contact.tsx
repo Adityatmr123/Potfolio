@@ -137,7 +137,7 @@ export function Contact() {
                       <Input
                         id="name"
                         name="name"
-                        placeholder="John Doe"
+                        placeholder="Aditya Singh Tomar"
                         required
                         value={formData.name}
                         onChange={handleChange}
@@ -152,7 +152,7 @@ export function Contact() {
                         id="email"
                         name="email"
                         type="email"
-                        placeholder="john@example.com"
+                        placeholder="adityasinghtmrr@gmail.com"
                         required
                         value={formData.email}
                         onChange={handleChange}
@@ -167,7 +167,7 @@ export function Contact() {
                     <Input
                       id="subject"
                       name="subject"
-                      placeholder="Project Inquiry"
+                      placeholder="Job Inquiry"
                       required
                       value={formData.subject}
                       onChange={handleChange}
@@ -181,7 +181,7 @@ export function Contact() {
                     <Textarea
                       id="message"
                       name="message"
-                      placeholder="I'd like to discuss a project opportunity..."
+                      placeholder="I'd like to discuss a Job opportunity..."
                       rows={5}
                       required
                       value={formData.message}
@@ -238,7 +238,7 @@ export function Contact() {
                   </svg>
                   <div>
                     <h3 className="font-medium transition-all duration-300 hover:-translate-y-1 inline-block">Location</h3>
-                    <p className="text-muted-foreground">Indore, Madhya Pradesh, India</p>
+                    <p className="text-muted-foreground">Bengaluru, Karnataka, India</p>
                   </div>
                 </div>
                 
@@ -249,7 +249,7 @@ export function Contact() {
                   </svg>
                   <div>
                     <h3 className="font-medium transition-all duration-300 hover:-translate-y-1 inline-block">Working Hours</h3>
-                    <p className="text-muted-foreground">Monday - Friday: 9am - 6pm IST</p>
+                    <p className="text-muted-foreground">Monday - Friday: 10am - 6pm IST</p>
                   </div>
                 </div>
               </CardContent>
@@ -264,7 +264,7 @@ export function Contact() {
                   Download my resume to learn more about my experience, skills, and qualifications.
                 </p>
                 <Button asChild>
-                  <a href="/Aditya_Singh_Resume.pdf" download>
+                  <a href="/Aditya_Singh_Tomar.pdf" download>
                     <svg className="mr-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
@@ -276,12 +276,12 @@ export function Contact() {
             
             <Card className="transition-all duration-300 hover:-translate-y-2">
               <CardHeader>
-                <CardTitle>Social Media</CardTitle>
+                <CardTitle>Platforms</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-3 gap-4">
                   <a 
-                    href="https://github.com/adityasinghtomar" 
+                    href="https://github.com/Adityatmr123" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex flex-col items-center p-3 rounded-md border border-border hover:border-primary hover:bg-primary/5 transition-colors"
@@ -292,7 +292,7 @@ export function Contact() {
                     <span className="text-sm font-medium">GitHub</span>
                   </a>
                   <a 
-                    href="https://linkedin.com/in/adityasinghtomar" 
+                    href="https://www.linkedin.com/in/adityasinghtmr/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex flex-col items-center p-3 rounded-md border border-border hover:border-primary hover:bg-primary/5 transition-colors"
@@ -302,7 +302,7 @@ export function Contact() {
                     </svg>
                     <span className="text-sm font-medium">LinkedIn</span>
                   </a>
-                  <a 
+                  {/* <a 
                     href="https://twitter.com/adityasinghtmr" 
                     target="_blank" 
                     rel="noopener noreferrer"
@@ -312,7 +312,7 @@ export function Contact() {
                       <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                     </svg>
                     <span className="text-sm font-medium">Twitter</span>
-                  </a>
+                  </a> */}
                 </div>
               </CardContent>
             </Card>

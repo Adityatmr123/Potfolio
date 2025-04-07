@@ -18,7 +18,7 @@ const education = [
     institution: "Bethel Academy",
     period: "April 2019 – May 2020",
     description: "Focused on Physics, Chemistry, and Mathematics. Participated in various academic competitions.",
-    courses: ["Physics", "Chemistry", "Mathematics", "Computer Science", "English"],
+    courses: ["Physics", "Chemistry", "Mathematics"],
     grade: "Percentage: 93%"
   },
   {
