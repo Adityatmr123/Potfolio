@@ -18,7 +18,7 @@ export function Skills() {
       "MongoDB", "MySQL", "Firebase"
     ],
     "DevOps & Tools": [
-      "Git", "Docker", "AWS", "Postman", "Docker", "Kubernates"
+      "Git", "Docker", "AWS", "Postman", "Docker", "Kubernates","Vault","Jenkins"
     ],
     "Other": [
       "Data Structures", "Algorithms", "System Design", "OOPS"
