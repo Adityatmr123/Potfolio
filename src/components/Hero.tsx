@@ -106,7 +106,7 @@ export function Hero() {
           >
             <div className="relative aspect-square overflow-hidden rounded-full border-8 border-background shadow-xl max-w-[400px] mx-auto transition-all duration-300 hover:-translate-y-2">
               <img
-                src="/public/img.jpg"
+                src="/img.jpg"
                 alt="Aditya Singh Tomar"
                 className="object-cover w-full h-full transform scale-100 object-top"
               />
