@@ -18,9 +18,8 @@ export function Analytics() {
   // Data for charts
   const codingProfileData = [
     { name: "LeetCode", problems: 450, rating: 2120 },
-    { name: "CodeChef", problems: 320, rating: 1950 },
-    { name: "Codeforces", problems: 280, rating: 1850 },
-    { name: "HackerRank", problems: 200, rating: 1800 }
+    { name: "CodeChef", problems: 320, rating: 1905 },
+    { name: "Codeforces", problems: 280, rating: 1479 },
   ]
 
   const platformDistributionData = [
@@ -28,7 +27,6 @@ export function Analytics() {
     { name: "GeeksforGeeks", value: 85 },
     { name: "CodeChef", value: 65 },
     { name: "Codeforces", value: 60 },
-    { name: "HackerRank", value: 70 }
   ]
 
   const progressData = [
@@ -123,7 +121,7 @@ export function Analytics() {
                   <div>
                     <h3 className="font-medium transition-all duration-300 hover:-translate-y-1 inline-block">LeetCode</h3>
                     <a 
-                      href="https://leetcode.com/adityasinghtmr/" 
+                      href="https://leetcode.com/u/adtmr208/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -140,7 +138,7 @@ export function Analytics() {
                   <div>
                     <h3 className="font-medium transition-all duration-300 hover:-translate-y-1 inline-block">GeeksforGeeks</h3>
                     <a 
-                      href="https://auth.geeksforgeeks.org/user/adityasinghtmr" 
+                      href="https://www.geeksforgeeks.org/user/adtmr/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -157,7 +155,7 @@ export function Analytics() {
                   <div>
                     <h3 className="font-medium transition-all duration-300 hover:-translate-y-1 inline-block">CodeChef</h3>
                     <a 
-                      href="https://www.codechef.com/users/adityasinghtmr" 
+                      href="https://www.codechef.com/users/old_bookk" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -174,7 +172,7 @@ export function Analytics() {
                   <div>
                     <h3 className="font-medium transition-all duration-300 hover:-translate-y-1 inline-block">Codeforces</h3>
                     <a 
-                      href="https://codeforces.com/profile/adityasinghtmr" 
+                      href="https://codeforces.com/profile/mrx9918261025" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"

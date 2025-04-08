@@ -7,45 +7,41 @@ import { useRef } from "react"
 
 const projects = [
   {
-    title: "Thoughtful Threads",
-    description: "A full-stack social media platform with real-time chat, post creation, and user authentication.",
+    title: "Thoughtful Threads ® Live",
+    description: "Blog Platform using MERN, Redux, and Tailwind CSS.",
     image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["React", "Node.js", "MongoDB", "Socket.io", "Express", "JWT"],
-    liveLink: "https://thoughtful-threads.vercel.app",
+    tags: ["MERN", "Redux", "Tailwind CSS", "HTML"],
+    liveLink: "https://thoughtful-threads.onrender.com/",
     githubLink: "https://github.com/Adityatmr123/thoughtful-threads",
     features: [
-      "Real-time messaging with Socket.io",
-      "User authentication with JWT",
-      "Post creation with image upload",
-      "Like and comment functionality"
+      "Developed a blog website using the MERN stack, Redux Toolkit, Tailwind CSS, and HTML.",
+      "Integrated React Router Dom and JWT + Google OAuth for authentication.",
+      "Implemented user authentication for liking and commenting on posts, ensuring secure client with search feature.",
+      "Created an admin dashboard for CRUD operations on posts, comments, and users, enhancing site management."
     ]
   },
   {
-    title: "Foodies",
-    description: "A food delivery application with restaurant listings, menu browsing, and order tracking.",
+    title: "Foodies ®Repo",
+    description: "A food ordering Website",
     image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["React Native", "Firebase", "Redux", "Google Maps API"],
-    liveLink: "https://foodies-app.vercel.app",
+    tags: ["PHP", "XAMPP", "HTML", "CSS", "JavaScript", "Bootstrap"],
+    liveLink: "#",
     githubLink: "https://github.com/Adityatmr123/foodies",
     features: [
-      "Restaurant search and filtering",
-      "Real-time order tracking",
-      "User reviews and ratings",
-      "Payment integration"
+      "Developed a food delivery website using PHP as the backend language, XAMPP as the server, and HTML, CSS, JavaScript, and Bootstrap as the frontend technologies.",
+      "Implemented a shop owner dashboard that displays key metrics such as orders received, registered users, and enables menu management (adding/removing items) while integrating an order management system that allows owners to accept or decline orders, ensuring efficient processing and communication with customers."
     ]
   },
   {
-    title: "DevConnect",
-    description: "A platform for developers to connect, share projects, and collaborate on coding challenges.",
+    title: "Eventia® Live",
+    description: "An event management platform",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
-    tags: ["React", "GraphQL", "Apollo", "MongoDB", "Express"],
-    liveLink: "https://dev-connect.vercel.app",
+    tags: ["Firebase", "JavaScript", "HTML", "CSS"],
+    liveLink: "https://eventsia.netlify.app/",
     githubLink: "https://github.com/Adityatmr123/dev-connect",
     features: [
-      "Developer profiles with portfolio showcase",
-      "Project collaboration tools",
-      "Code snippet sharing",
-      "Technical discussion forums"
+      "Developed using Firebase for the backend and JavaScript, HTML, and CSS for the frontend.",
+      "Implemented features like user authentication, real-time updates using Firebase Firestore, and a notification system that automatically alerts participants of any event changes, providing a seamless and interactive experience for both organizers and users."
     ]
   }
 ]
