@@ -276,7 +276,7 @@ export function Analytics() {
             transition={{ duration: 0.5 }}
             className="md:col-span-2"
           >
-            <Card className="transition-all duration-300 hover:-translate-y-2">
+            {/* <Card className="transition-all duration-300 hover:-translate-y-2">
               <CardHeader>
                 <CardTitle>Progress Over Time</CardTitle>
                 <CardDescription>Number of problems solved each month in 2023.</CardDescription>
@@ -310,7 +310,7 @@ export function Analytics() {
                   </ResponsiveContainer>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </motion.div>
         </div>
       </div>

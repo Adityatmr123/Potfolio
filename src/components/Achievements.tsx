@@ -5,41 +5,86 @@ import { useRef } from "react"
 import { Award, Calendar, MapPin, Trophy, Users } from "lucide-react"
 
 const achievements = [
+  // {
+  //   title: "Smart India Hackathon 2022 - Winner",
+  //   description: "Developed an AI-powered solution for automated document verification and fraud detection.",
+  //   date: "August 2022",
+  //   platform: "Ministry of Education, Government of India",
+  //   teamSize: 6,
+  //   location: "Pune, Maharashtra",
+  //   category: "AI/ML"
+  // },
+  // {
+  //   title: "Microsoft Imagine Cup 2023 - Finalist",
+  //   description: "Created an innovative healthcare platform that connects patients with doctors using telemedicine.",
+  //   date: "March 2023",
+  //   platform: "Microsoft",
+  //   teamSize: 4,
+  //   location: "Virtual",
+  //   category: "Healthcare"
+  // },
+  // {
+  //   title: "Google Solution Challenge 2022 - Top 50",
+  //   description: "Built a sustainable agriculture solution using IoT sensors and predictive analytics.",
+  //   date: "April 2022",
+  //   platform: "Google Developer Student Clubs",
+  //   teamSize: 5,
+  //   location: "Virtual",
+  //   category: "Sustainability"
+  // },
+  // {
+  //   title: "HackVerse 2023 - 1st Runner Up",
+  //   description: "Developed a blockchain-based supply chain tracking system for pharmaceutical products.",
+  //   date: "February 2023",
+  //   platform: "NITK Surathkal",
+  //   teamSize: 3,
+  //   location: "Surathkal, Karnataka",
+  //   category: "Blockchain"
+  // },
   {
-    title: "Smart India Hackathon 2022 - Winner",
-    description: "Developed an AI-powered solution for automated document verification and fraud detection.",
-    date: "August 2022",
-    platform: "Ministry of Education, Government of India",
-    teamSize: 6,
-    location: "Pune, Maharashtra",
-    category: "AI/ML"
+    title: "Code with Cisco Hackathon - Top 25",
+    description: "Ranked in the top 25 of 20,000+ teams.",
+    date: "8th-11th July 2024",
+    platform: "Cisco",
+    teamSize: "3",
+    location: "Bengaluru, Karnataka",
+    category: "Hackathon"
   },
   {
-    title: "Microsoft Imagine Cup 2023 - Finalist",
-    description: "Created an innovative healthcare platform that connects patients with doctors using telemedicine.",
-    date: "March 2023",
-    platform: "Microsoft",
-    teamSize: 4,
-    location: "Virtual",
-    category: "Healthcare"
+    title: "ICPC Amritapuri Preliminaries - AIR 864",
+    description: "Achieved AIR 864 as part of a team.",
+    date: "26th Novemenber 2024",
+    platform: "ICPC",
+    teamSize: "3",
+    location: "Amritapuri",
+    category: "Competitive Programming"
   },
   {
-    title: "Google Solution Challenge 2022 - Top 50",
-    description: "Built a sustainable agriculture solution using IoT sensors and predictive analytics.",
-    date: "April 2022",
-    platform: "Google Developer Student Clubs",
-    teamSize: 5,
-    location: "Virtual",
-    category: "Sustainability"
+    title: "Google Solution Challenge Hackathon - 2nd Place",
+    description: "Innovated solution aligned with UN Goals.",
+    date: "24th September 2024",
+    platform: "GDSC",
+    teamSize: "3",
+    location: "IIIT Allahabad",
+    category: "Innovation"
   },
   {
-    title: "HackVerse 2023 - 1st Runner Up",
-    description: "Developed a blockchain-based supply chain tracking system for pharmaceutical products.",
-    date: "February 2023",
-    platform: "NITK Surathkal",
-    teamSize: 3,
-    location: "Surathkal, Karnataka",
-    category: "Blockchain"
+    title: "CODE-HELL Coding Contest - 3rd Place",
+    description: "Achieved 3rd rank in the contest organized by GDSC.",
+    date: "22nd May 2024",
+    platform: "GDSC",
+    teamSize: "3",
+    location: "IIIT Allahabad",
+    category: "Coding Contest"
+  },
+  {
+    title: "Problem Solving on Various Platforms",
+    description: "Solved 2000+ questions on platforms like Leetcode, GFG, Codeforces, Codechef, CodingNinjas.",
+    date: "Ongoing",
+    platform: "Various",
+    teamSize: "Individual",
+    location: "Online",
+    category: "Problem Solving"
   }
 ]
 

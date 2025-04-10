@@ -123,7 +123,7 @@ export function Hero() {
                 <CodeIcon className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <div className="text-sm font-medium">Coding Profile</div>
+                <div className="text-sm font-medium">Job Profile</div>
                 <div className="text-xs text-muted-foreground">ClearTax SDE Intern</div>
               </div>
             </motion.div>
@@ -134,7 +134,7 @@ export function Hero() {
               transition={{ duration: 0.5, delay: 0.7 }}
               className="absolute -top-6 -right-6 bg-background rounded-lg shadow-lg p-4 transition-all duration-300 hover:-translate-y-2"
             >
-              <div className="text-sm font-medium">Education</div>
+              <div className="text-sm font-medium">Current Education</div>
               <div className="text-xs text-muted-foreground">IIIT Allahabad</div>
             </motion.div>
           </motion.div>
