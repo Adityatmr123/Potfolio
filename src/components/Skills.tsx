@@ -6,10 +6,10 @@ import { useRef } from "react"
 export function Skills() {
   const skills = {
     "Languages": [
-      "JavaScript", "Python", "Java", "C++", "HTML", "CSS"
+     "C", "JavaScript", "Python", "Java", "C++", "HTML", "CSS"
     ],
     "Frontend": [
-      "React", "Next.js", "Redux", "Tailwind CSS", "React Query"
+      "React", "Redux", "Tailwind CSS", "React Query"
     ],
     "Backend": [
       "Node.js", "Express", "FastAPI","REST API"
@@ -21,7 +21,7 @@ export function Skills() {
       "Git", "Docker", "AWS", "Postman", "Docker", "Kubernates","Vault","Jenkins"
     ],
     "Other": [
-      "Data Structures", "Algorithms", "System Design", "OOPS"
+      "Data Structures", "Operating System", "System Design", "OOPS","DBMS"
     ]
   }
 
@@ -94,19 +94,7 @@ export function Skills() {
                           rotate: [-1, 1, -1, 0],
                           transition: { duration: 0.3 }
                         }}
-                        animate={{
-                          boxShadow: [
-                            "0px 0px 0px rgba(59, 130, 246, 0)",
-                            "0px 0px 8px rgba(59, 130, 246, 0.5)",
-                            "0px 0px 0px rgba(59, 130, 246, 0)"
-                          ],
-                          transition: {
-                            repeat: Infinity,
-                            repeatType: "reverse",
-                            duration: 2,
-                            delay: skillIndex * 0.2
-                          }
-                        }}
+                        animate={{}}
                       >
                          <Badge
                           variant="secondary"
