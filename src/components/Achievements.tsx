@@ -5,42 +5,7 @@ import { useRef } from "react"
 import { Award, Calendar, MapPin, Trophy, Users } from "lucide-react"
 
 const achievements = [
-  // {
-  //   title: "Smart India Hackathon 2022 - Winner",
-  //   description: "Developed an AI-powered solution for automated document verification and fraud detection.",
-  //   date: "August 2022",
-  //   platform: "Ministry of Education, Government of India",
-  //   teamSize: 6,
-  //   location: "Pune, Maharashtra",
-  //   category: "AI/ML"
-  // },
-  // {
-  //   title: "Microsoft Imagine Cup 2023 - Finalist",
-  //   description: "Created an innovative healthcare platform that connects patients with doctors using telemedicine.",
-  //   date: "March 2023",
-  //   platform: "Microsoft",
-  //   teamSize: 4,
-  //   location: "Virtual",
-  //   category: "Healthcare"
-  // },
-  // {
-  //   title: "Google Solution Challenge 2022 - Top 50",
-  //   description: "Built a sustainable agriculture solution using IoT sensors and predictive analytics.",
-  //   date: "April 2022",
-  //   platform: "Google Developer Student Clubs",
-  //   teamSize: 5,
-  //   location: "Virtual",
-  //   category: "Sustainability"
-  // },
-  // {
-  //   title: "HackVerse 2023 - 1st Runner Up",
-  //   description: "Developed a blockchain-based supply chain tracking system for pharmaceutical products.",
-  //   date: "February 2023",
-  //   platform: "NITK Surathkal",
-  //   teamSize: 3,
-  //   location: "Surathkal, Karnataka",
-  //   category: "Blockchain"
-  // },
+
   {
     title: "Code with Cisco Hackathon - Top 25",
     description: "Ranked in the top 25 of 20,000+ teams.",

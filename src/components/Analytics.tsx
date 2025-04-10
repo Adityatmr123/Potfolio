@@ -92,8 +92,7 @@ export function Analytics() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                I'm currently open to freelance projects, full-time opportunities, and collaborations. 
-                My typical response time is within 24 hours.
+                I'm currently  open to any 6 months and full time opututnity 
               </p>
             </CardContent>
           </Card> */}
